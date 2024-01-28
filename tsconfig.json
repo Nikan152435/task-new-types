@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      /* Basic Options */
+      "target": "es6",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+  
+      /* Type Checking */
+      "skipLibCheck": true,
+      "outDir": "./dist"
+    },
+    "include": ["src/**/*.ts"]
+  }
+   
+
