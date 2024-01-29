@@ -7,6 +7,10 @@ export default class Cart {
     add(item: Buyable): void {
         this.items.push(item);
     }
+    
+get allItems(): Buyable[] {
+    return [...this.items];
+}
 
     delete(itemId: number): void {
         this.items = this.items.filter(item => item.id !== itemId);
